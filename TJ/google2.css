@@ -1,0 +1,49 @@
+.gg{
+    text-align: center;
+    /* background-color: green; */
+}
+
+/* .gr1{
+     background-color: hotpink;
+    display: inline-flex;
+    margin-left: 200px;
+}
+
+.gr2{
+    background-color: palegoldenrod; 
+    display: inline-flex;
+    margin-left: 200px;
+} */
+
+.gr1{
+   background-color: hotpink;
+   margin-left: 200px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.gr2{
+   background-color: palegoldenrod; 
+   display: flex;
+   margin-left: 200px;
+   justify-content: space-between;
+}
+
+.gr3{
+    /* background-color: blue; */
+    width: 800px;
+    margin-left: 11%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+
+.port{
+    border-radius: 300px;
+    /* position: fixed;
+    top: 10px; */
+    position: relative;
+    bottom: 700px;
+}

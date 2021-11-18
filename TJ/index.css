@@ -1,0 +1,125 @@
+table, th, tr, td{
+    border: 2px solid;
+    
+}
+.tb{
+    margin-left: 460px;
+    
+}
+h1{
+    color: brown;
+}
+
+.car{
+    color: green;
+}
+
+.rhema{
+    background-color: turquoise;
+}
+
+#r1{
+    color: red;
+    border: dashed;
+}
+
+#r2{
+    color: blue;
+    border: solid;
+    border: none;
+    padding-bottom: 12px;
+    box-shadow: black 2px 12px 0px;
+    /* box-shadow: color right drop/down sharpness; */
+}
+#r3{
+    color: wheat;
+    border: dotted;
+    border-color: black;
+    border-radius: 17px;
+    box-shadow: rgb(114, 107, 107) 2px 3px 9px;
+}
+#r4{
+    color: rgb(255, 71, 209);
+    border: double;
+    padding-top: 17px;
+}
+
+.fl{
+    background-color: cornflowerblue;
+    width: 30%;
+    height: 240px;
+    float: right;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    background-color: black;
+    color: wheat;
+    width: 111px;
+    display: inline;
+}
+
+
+.PES{
+    background-image: url(../TJ/images/e\ football.jpg);
+    width: 693px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-size: cover;
+    margin-top: 35%;
+    position: relative;
+    bottom: 120px;
+}
+/* .messi{
+    height: 350px;
+    width: 170px;
+    margin-left: 12px;
+    margin-top: 20px;
+
+   
+    
+} */
+
+/* .messi{
+    height: 350px;
+    width: 170px;
+
+    margin-right: 12px;
+    margin-top: 40px;
+    float: right;
+}
+ */
+
+ .messi{
+    height: 350px;
+    width: 170px;
+    margin-top: 40px;
+    position: relative;
+    left: 500px;
+ }
+
+.fire{
+     background-color: tomato;
+     width: 200px;
+     height: 100px;
+     text-align: center;
+     /* display: inline-flex; */
+    
+ }
+
+ #fire_id{
+    background-color: firebrick;
+ }
+
+ #fire_id2{
+    background-color: goldenrod;
+}
+
+.container{
+    background-color: aqua;
+    display: flex; 
+    justify-content: space-around;
+    /* display: inline; */
+}
